@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_history_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="3 days ago" />
+
+    <LinearLayout
+        android:id="@+id/background_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/tv_time_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:text="4:20 PM"
+            android:textColor="#5D5E6A"></TextView>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_tittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tittle"
+                android:textColor="#100D0D"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Content"
+                android:textColor="#5D5E6A"
+                android:textSize="25sp"></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

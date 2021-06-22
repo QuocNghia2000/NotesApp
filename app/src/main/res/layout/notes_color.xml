@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEDE8C5">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background Color"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_color1"
+                android:onClick="tickColor"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_note_color1"
+                android:src="@drawable/ic_baseline_done_24" />
+
+                <ImageView
+                    android:id="@+id/iv_color2"
+                    android:layout_width="wrap_content"
+                    android:onClick="tickColor"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/background_note_color2"/>
+            <ImageView
+                android:id="@+id/iv_color3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="tickColor"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_note_color3"/>
+            <ImageView
+                android:id="@+id/iv_color4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="tickColor"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/background_note_color4"/>
+            <ImageView
+                android:id="@+id/iv_color5"
+                android:layout_marginLeft="10dp"
+                android:onClick="tickColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_note_color5"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_color6"
+                    android:layout_width="wrap_content"
+                    android:onClick="tickColor"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/background_note_color6" />
+
+                <ImageView
+                    android:id="@+id/iv_color7"
+                    android:layout_width="wrap_content"
+                    android:onClick="tickColor"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/background_note_color7"/>
+
+                   <ImageView
+                       android:id="@+id/iv_color8"
+                       android:layout_width="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:onClick="tickColor"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/background_note_color8"/>
+                <ImageView
+                    android:id="@+id/iv_color9"
+                    android:onClick="tickColor"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_note_color9"/>
+                <ImageView
+                    android:id="@+id/iv_color10"
+                    android:onClick="tickColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/background_note_color10"/>
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
